@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio">
+    <title>Hariharasudhan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: white;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: green;
+            color: red;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f0b42f;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .projects, .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .project, .skill {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .project img, .skill img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .project:hover, .skill:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: coral;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #f0b42f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Hariharasudhan S</h1>
+        <p>Web Developer | Designer | FullStack Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Hariharasudhan S, a passionate Full Stack developer with a love for design and coding. I specialize in front-end development and have a keen eye for UI/UX design. My goal is to create clean, efficient, and aesthetically pleasing websites.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are a few projects I've worked on:</p>
+        <div class="projects">
+            <div class="project">
+                <img src="https://i2.wp.com/magzhouse.com/wp-content/uploads/2019/09/Beautiful-Fall-Flower-Arrangement-Design-Ideas-For-Living-Room-Decor-01.jpg?ssl=1" width="300" height="200" alt="Project 1">
+                <h3>Project One</h3>
+                <p>This was my first Project in React applications.The Flower Decor React Application is a modern, user-friendly online FlowerDecor platform designed using React.js. It aims to provide users with a seamless browsing and purchasing experience for a wide range of Flowers. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>These are some of the skills I specialize in:</p>
+        <div class="skills">
+            <div class="skill">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.derccFr80GQD1PJ8C69Q2AHaEJ&pid=Api&P=0&h=180" alt="React">
+                <h3>React</h3>
+                <p>Experienced in building high-performance applications with React.js and related tools.</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.eMkm9YE8YKM-YlCFvFDpCwHaEL&pid=Api&P=0&h=180" alt="CSS">
+                <h3>CSS</h3>
+                <p>Skilled in creating beautiful, modern, and responsive designs using CSS and frameworks like Bootstrap.</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.Q82hIHxNKTr9wI17ywJkXQHaEK&pid=Api&P=0&h=180" alt="HTML">
+                <h3>HTML</h3>
+                <p>Expert in crafting responsive web pages with clean and semantic HTML.</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.Nf3p4vIQIlNgKTVulchvqgHaHa&pid=Api&P=0&h=180" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>Proficient in creating interactive and dynamic websites with JavaScript, including frameworks like React.</p>
+            </div>
+           
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, please feel free to send me an email or connect via social media:</p>
+        <p>Phone: +91 8122676013</p>
+        <p>Email: <a href="hariharasudhanofficial6@gmail.com">hariharasudhanofficial6@gmail.com</a></p>
+            </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025  Hariharasudhan S| <a href="#contact">Contact</a></p>
+    </footer>
+</body>
+
+</html>
